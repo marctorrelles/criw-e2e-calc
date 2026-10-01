@@ -1,2 +1,2 @@
 export const add = (a, b) => a + b;
-export const average = (xs) => xs.reduce((s, x) => s + x, 0) / (xs.length - 1);
+export const average = (xs) => xs.reduce((s, x) => s + x, 0) / (xs.length);
